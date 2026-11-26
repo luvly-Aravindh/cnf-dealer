@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Enquiry received | CNF Dealership</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#367b20">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<style>
+@font-face{font-family:"Quicksand";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/quicksand-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Lato";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/lato-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Lato";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/lato-latin-700-normal.woff2) format("woff2")}
+:root{--brand:#367b20;--forest:#2a6118;--deep:#173a0c;--ink:#13240e;--black:#0d1a09;--smoke:#f3f6ef;--line:#e1e7db;--muted:#5f6b5a;--yellow:#afca05;--wa:#25d366;
+--fh:"Quicksand",system-ui,sans-serif;--fb:"Lato",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+body{font:400 17px/1.6 var(--fb);color:var(--ink);background:var(--smoke);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+.ic{width:24px;height:24px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ic.fill{fill:currentColor;stroke:none}
+.top{background:#fff;border-bottom:1px solid var(--line)}
+.top .in{max-width:640px;margin:0 auto;padding:0 18px;height:62px;display:flex;align-items:center}
+.top img{height:46px;width:auto}
+main{max-width:640px;margin:0 auto;padding:24px 18px 48px}
+.card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px 20px;box-shadow:0 12px 30px rgba(23,58,12,.08);text-align:center}
+.tick{width:84px;height:84px;margin:0 auto 16px;border-radius:50%;background:#e3efd6;display:grid;place-items:center;color:var(--brand)}
+.tick .ic{width:44px;height:44px;stroke-width:3}
+h1{font:700 clamp(27px,7.4vw,38px)/1.15 var(--fh);color:var(--black);letter-spacing:-.4px}
+h1 span{color:var(--brand)}
+.ref{display:inline-block;margin-top:12px;padding:7px 13px;border-radius:10px;background:var(--smoke);font:700 15px/1.2 var(--fb);color:var(--forest)}
+h2{font:700 21px/1.2 var(--fh);color:var(--black);margin:26px 0 12px;text-align:left}
+.next{list-style:none;display:grid;gap:10px;text-align:left}
+.next li{display:flex;gap:14px;align-items:flex-start;background:var(--smoke);border:1px solid var(--line);border-radius:16px;padding:14px}
+.next li i{flex:none;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--brand);color:#fff;font:700 16px/1 var(--fh);font-style:normal}
+.next b{display:block;font-size:17px;color:var(--black);line-height:1.3}
+.next span{font-size:15px;color:var(--muted);line-height:1.45}
+.mail{margin-top:14px;font-size:15px;color:var(--muted);text-align:left}
+.mail b{color:var(--ink);word-break:break-all}
+.wa{margin-top:22px;background:var(--deep);color:#fff;border-radius:20px;padding:22px 18px;text-align:center}
+.wa h3{font:700 21px/1.2 var(--fh)}
+.wa p{color:#d3e3c7;font-size:15.5px;margin:6px 0 16px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:58px;padding:12px 20px;border-radius:14px;font:700 18px/1.1 var(--fb);text-decoration:none;-webkit-tap-highlight-color:transparent}
+.btn-wa{background:var(--wa);color:var(--black)}
+.btn-wa .ic{width:26px;height:26px}
+.count{font-size:14px;color:#d3e3c7;margin-top:10px}
+.more{display:grid;gap:10px;margin-top:22px}
+.link{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;border-radius:14px;border:2px solid var(--brand);color:var(--brand);background:#fff;font:700 16.5px/1.1 var(--fb);text-decoration:none}
+.link .ic{width:20px;height:20px}
+.home{display:block;text-align:center;margin-top:6px;color:var(--muted);font-size:15px}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:0 18px 30px}
+@media (min-width:760px){.card{padding:40px 44px}.more{grid-template-columns:1fr 1fr}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></symbol>
+</svg>
+
+<header class="top"><div class="in"><a href="./"><img src="img/cnf-logo.png" alt="CNF, Fertilizing Made Easy" width="262" height="96"></a></div></header>
+
+<main>
+  <div class="card">
+    <div class="tick"><svg class="ic"><use href="#i-check"/></svg></div>
+    <h1 id="tyTitle">Thank you! <span>Your enquiry is received.</span></h1>
+    <p class="ref" id="tyRef" hidden></p>
+
+    <h2>What happens next</h2>
+    <ul class="next">
+      <li><i>1</i><div><b>We have your details</b><span>Your enquiry is saved with our dealer team.</span></div></li>
+      <li><i>2</i><div><b>A CNF field officer contacts you</b><span>Within 24 hours, with today's rate and dispatch date for your area.</span></div></li>
+      <li><i>3</i><div><b>We visit your shop and godown</b><span>We share dealership terms, then your principal certificate and first stock.</span></div></li>
+    </ul>
+    <p class="mail" id="tyMail" hidden>We will also send product updates to <b id="tyEmail"></b>.</p>
+
+    <div class="wa">
+      <h3>Want a faster reply?</h3>
+      <p>Continue on WhatsApp and tap Send. Your details are already typed in.</p>
+      <a class="btn btn-wa" id="tyWa" href="https://api.whatsapp.com/send/?phone=919900357603&text=Hello+CNF...+I+want+to+know+about+the+dealership.+My+pin+code+is+&type=phone_number&app_absent=0" target="_blank" rel="noopener"><svg class="ic fill"><use href="#i-wa"/></svg>Continue on WhatsApp</a>
+      <p class="count" id="tyCount" hidden>Opening WhatsApp in <b id="tySec">4</b> seconds</p>
+    </div>
+
+    <div class="more">
+      <a class="link" href="brochures/cnf-pdm-potash-brochure.pdf" download="cnf-pdm-potash-brochure.pdf"><svg class="ic"><use href="#i-down"/></svg>PDM brochure</a>
+      <a class="link" href="./"><svg class="ic"><use href="#i-back"/></svg>Back to main page</a>
+    </div>
+  </div>
+</main>
+<footer>&copy; 2026 CNF Phosphate (India) Pvt Ltd</footer>
+
+<script>
+(function () {
+  var d = document, data = null;
+  function $(id) { return d.getElementById(id); }
+  try { data = JSON.parse(sessionStorage.getItem("cnf_ty") || "null"); } catch (e) {}
+  if (!data) { try { data = JSON.parse(localStorage.getItem("cnf_ty") || "null"); } catch (e) {} }
+  if (data) {
+    if (data.name) $("tyTitle").innerHTML = "Thank you, " + String(data.name).replace(/[<>&"]/g, "") + "! <span>Your enquiry is received.</span>";
+    if (data.ref) { $("tyRef").textContent = "Reference: " + data.ref; $("tyRef").hidden = false; }
+    if (data.email) { $("tyEmail").textContent = data.email; $("tyMail").hidden = false; }
+    if (data.wa && /^https:\/\/api\.whatsapp\.com\//.test(data.wa)) $("tyWa").href = data.wa;
+  }
+  try { (window.dataLayer = window.dataLayer || []).push({ event: "dealer_thank_you_view", cnf: { ref: data && data.ref } }); } catch (e) {}
+
+  /* On phones, open WhatsApp automatically after a short pause so the visitor sees the confirmation first */
+  var mobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+  var seen = false; try { seen = sessionStorage.getItem("cnf_ty_opened") === (data && data.ref); } catch (e) {}
+  if (mobile && data && data.wa && !seen) {
+    var n = 4; $("tyCount").hidden = false;
+    var t = setInterval(function () {
+      n -= 1; $("tySec").textContent = n;
+      if (n <= 0) {
+        clearInterval(t); $("tyCount").hidden = true;
+        try { sessionStorage.setItem("cnf_ty_opened", data.ref); } catch (e) {}
+        location.href = $("tyWa").href;
+      }
+    }, 1000);
+    $("tyWa").addEventListener("click", function () { clearInterval(t); $("tyCount").hidden = true; try { sessionStorage.setItem("cnf_ty_opened", data.ref); } catch (e) {} });
+  }
+})();
+</script>
+</body>
+</html>
